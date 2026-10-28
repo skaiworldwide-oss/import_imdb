@@ -1,5 +1,5 @@
 # import_imdb
-This script will import IMDB data from the relational database created by IMDBpy into AgensGraph. [AgensGraph](http://bitnine.net/agensgraph/) is a graph database platform that runs off of PostgreSQL and is queryable with both SQL and the Cypher Query Language for graph databases. Representing IMDB data as graph data helps to provide an intuitive way to query and visualize connections between cast and crew and the productions that they work on.
+This script will import IMDB data from the relational database created by IMDBpy into AgensGraph. [AgensGraph](https://github.com/skaiworldwide-oss/agensgraph) is a graph database platform that runs off of PostgreSQL and is queryable with both SQL and the Cypher Query Language for graph databases. Representing IMDB data as graph data helps to provide an intuitive way to query and visualize connections between cast and crew and the productions that they work on.
 
 ## Getting Started
 
@@ -17,7 +17,7 @@ NOTE: As of Dec 2017, the new IMDb data redesign shifted the schema of IMDb data
 
 [Documentation for imdbpy2sql.py](http://imdbpy.sourceforge.net/docs/README.sqldb.txt)
 
-Install [AgensGraph](https://github.com/bitnine-oss/agensgraph). We need a running copy of AgensGraph to be able to import the data from IMDB. [AgensGraph Quick Start Guide](http://bitnine.net/support/documents_backup/quick-start-guide-html/)
+Install [AgensGraph](https://github.com/skaiworldwide-oss/agensgraph). We need a running copy of AgensGraph to be able to import the data from IMDB. [AgensGraph Quick Start Guide](https://tech.skaiworldwide.com/docs/en/agensgraph/18/get_started/index.html)
 
 Install [psycopg](http://initd.org/psycopg/). 
 
