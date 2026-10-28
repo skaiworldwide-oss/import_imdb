@@ -15,11 +15,11 @@ Install [IMDbPy](http://imdbpy.sourceforge.net/). IMDbPy is a Python package tha
 
 NOTE: As of Dec 2017, the new IMDb data redesign shifted the schema of IMDb data to be more simple. The latest IMDbPy version has also been rewritten to accomodate this change. Right now, AgensGraph's import script are still compatible with the older format of the data. To obtain the older version of the IMDb dataset, you can use the above command, followed by the ftp URL [ftp://ftp.fu-berlin.de/pub/misc/movies/database/frozendata/](ftp://ftp.fu-berlin.de/pub/misc/movies/database/frozendata/). You can obtain a version of IMDbPy that still works with the older IMDb data [here](https://github.com/alberanid/imdbpy/blob/imdbpy-legacy/bin/imdbpy2sql.py). 
 
-[Documentation for imdbpy2sql.py](http://imdbpy.sourceforge.net/docs/README.sqldb.txt)
+[Documentation for imdbpy2sql.py](https://github.com/cinemagoer/cinemagoer/blob/imdbpy-legacy/docs/README.sqldb)
 
 Install [AgensGraph](https://github.com/skaiworldwide-oss/agensgraph). We need a running copy of AgensGraph to be able to import the data from IMDB. [AgensGraph Quick Start Guide](https://tech.skaiworldwide.com/docs/en/agensgraph/18/get_started/index.html)
 
-Install [psycopg](http://initd.org/psycopg/). 
+Install [psycopg](https://www.psycopg.org/docs/install.html). 
 
 ### Installation
 
